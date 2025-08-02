@@ -1,0 +1,20 @@
+Q.1: What is Docker?  
+Ans: Docket is a tool designed to make it easier to create, deploy, and run applications by suing container.  
+
+** Think of a container as a mini-computer or environment where your app runs with all its dependencies.  
+** Docker helps developers ensures that an applications will run the same , no matter where it's deployed(eg; your laptop, a server , or the cloud).  
+
+
+Q.2: What is a Docker Image ?  
+Ans :A Docker image is like a blueprint of your app. It contains your application code, runtime, libraries and configurations.  
+Example :   
+```  
+hello-world-A basic text image  
+mysql-Official MySQL image  
+nginx-Official NGINX web server image  
+```  
+Q.3: What is Docker Container ?  
+Ans: A container is a running instance of an image.  
+
+* You build an image-then you run a container from it.  
+* Multiple containers can run from the same image, like multiple apps running from the same codebase.  
